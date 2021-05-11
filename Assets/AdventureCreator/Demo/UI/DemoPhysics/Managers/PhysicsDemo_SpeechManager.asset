@@ -1,0 +1,631 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e62d8d078be49cf8ad9ebe2efcaeb2, type: 3}
+  m_Name: PhysicsDemo_SpeechManager
+  m_EditorClassIdentifier: 
+  scrollSubtitles: 0
+  scrollNarration: 0
+  textScrollSpeed: 50
+  textScrollCLip: {fileID: 0}
+  narrationTextScrollCLip: {fileID: 0}
+  playScrollAudioEveryCharacter: 1
+  displayForever: 0
+  displayNarrationForever: 0
+  playAnimationForever: 1
+  canSkipWithMouseClicks: 1
+  minimumDisplayTime: 1
+  screenTimeFactor: 0.1
+  allowSpeechSkipping: 0
+  allowGameplaySpeechSkipping: 0
+  skipThresholdTime: 0
+  endScrollBeforeSkip: 0
+  scrollingTextFactorsLength: 0
+  syncSubtitlesToAudio: 0
+  useAssetBundles: 0
+  searchAudioFiles: 1
+  autoNameSpeechFiles: 1
+  autoSpeechFolder: Speech
+  autoLipsyncFolder: Lipsync
+  forceSubtitles: 1
+  translateAudio: 1
+  separateVoiceAndTextLanguages: 0
+  fallbackAudio: 0
+  keepTextInBuffer: 0
+  relegateBackgroundSpeechAudio: 0
+  usePlayerRealName: 0
+  separateSharedPlayerAudio: 0
+  placeAudioInSubfolders: 0
+  separateLines: 0
+  separateLinePause: 0.1
+  resetExpressionsEachLine: 1
+  lines:
+  - isPlayer: 0
+    lineID: 0
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: BrainOffice
+    text: It's locked!
+    description: 
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 1
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: RobotOffice
+    text: '     What?     '
+    description: 
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 2
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: BrainOffice
+    text: Man, making games sure is hungry work!
+    description: 
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 3
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: BrainOffice
+    text: I'm sure there's some food left in the cupboard.
+    description: 
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 4
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: BrainOffice
+    text: If only I could find the key that unlocks it..
+    description: 
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 5
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Drawer
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 6
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Drawers
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 7
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Rock
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 8
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Drawer
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 9
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Rock
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 10
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Letter
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 11
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Drawer
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 12
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Key
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 13
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Cupboard
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 14
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Pear
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 15
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Cupboard
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 16
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Key
+    description: 
+    textType: 3
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 17
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Letter
+    description: 
+    textType: 3
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 18
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: Use
+    description: 
+    textType: 6
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 19
+    scene: Assets/PhysicsDemo/Scenes/Office.unity
+    owner: 
+    text: on
+    description: 
+    textType: 6
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 20
+    scene: 
+    owner: 
+    text: Hand
+    description: 
+    textType: 4
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 21
+    scene: 
+    owner: 
+    text: Use
+    description: 
+    textType: 4
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 22
+    scene: 
+    owner: 
+    text: Grab
+    description: 
+    textType: 4
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 23
+    scene: 
+    owner: Exit Button
+    text: 
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 24
+    scene: 
+    owner: SpeechText
+    text: Label
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 25
+    scene: 
+    owner: Tip
+    text: 'TIP:'
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 26
+    scene: 
+    owner: Tip1
+    text: Click on the drawers to examine them.
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 27
+    scene: 
+    owner: Tip2
+    text: Drag open the drawers to find the letter.
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 28
+    scene: 
+    owner: Tip3
+    text: Click the letter icon to read it.
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 29
+    scene: 
+    owner: Tip4
+    text: Click the 'Exit' icon to zoom out.
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 30
+    scene: 
+    owner: Tip5
+    text: Click on the rock to examine it.
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 31
+    scene: 
+    owner: Tip6
+    text: Press 'r' when holding the rock to rotate it.
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 32
+    scene: 
+    owner: Tip7
+    text: Click on the cupboard to examine it.
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 33
+    scene: 
+    owner: Tip8
+    text: Drag the key onto the cupboard to unlock it.
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 34
+    scene: 
+    owner: Tip9
+    text: Open the cupboard and take the fruit!
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 35
+    scene: 
+    owner: HotspotLabel
+    text: Label
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 36
+    scene: 
+    owner: Letter
+    text: 
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 
+  languages:
+  - Original
+  languageIsRightToLeft: 00
+  languageAudioAssetBundles: []
+  languageLipsyncAssetBundles: []
+  ignoreOriginalText: 0
+  sfxDucking: 0
+  musicDucking: 0
+  lipSyncMode: 3
+  lipSyncOutput: 1
+  phonemes:
+  - 'B/M/P/MBP/ '
+  - AY/AH/IH/EY/ER/ae
+  - G/O/OO/OH/W
+  - SH/R/Z/SF/D/L/F/TN/K/N/NG/H/X/FV
+  - UH/EH/DH/AE/IY
+  lipSyncSpeed: 1
+  maxID: -1
+  speechIDRecycling: 0
+  sceneFiles:
+  - Assets/PhysicsDemo/Scenes/Office.unity
+  activeLineID: -1
+  mergeMatchingSpeechIDs: 0
+  useSpeechTags: 0
+  speechTags: []
+  previewMenuName: 

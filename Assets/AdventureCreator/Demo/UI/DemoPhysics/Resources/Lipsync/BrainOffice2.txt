@@ -1,0 +1,38 @@
+audio BrainOffice2.wav
+phn 0 550 75 x
+word 550 1060 Man
+phn 550 689 75 m
+phn 689 920 75 AE
+phn 920 1059 75 n
+word 1060 1350 making
+phn 1060 1108 75 m
+phn 1108 1205 75 EY
+phn 1205 1253 75 k
+phn 1253 1301 75 IH
+phn 1301 1350 75 NG
+word 1350 1700 games
+phn 1350 1419 75 g
+phn 1419 1559 75 EY
+phn 1559 1629 75 m
+phn 1629 1699 75 z
+word 1700 1980 sure
+phn 1700 1760 75 SH
+phn 1760 1880 75 UH
+phn 1880 1980 75 r
+word 1980 2080 is
+phn 1980 2029 75 IH
+phn 2029 2079 75 z
+word 2080 2370 hungry
+phn 2080 2119 75 h
+phn 2119 2185 75 AH
+phn 2185 2225 75 NG
+phn 2225 2264 75 g
+phn 2264 2330 75 r
+phn 2330 2370 75 IY
+word 2370 2750 work
+phn 2370 2505 75 w
+phn 2505 2668 75 ER
+phn 2668 2749 75 k
+%%-begin-anno-text-%% 
+Man, making games sure is hungry work.
+%%-end-anno-text-%%

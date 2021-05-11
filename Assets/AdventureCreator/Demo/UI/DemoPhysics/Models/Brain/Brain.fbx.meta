@@ -1,0 +1,1687 @@
+fileFormatVersion: 2
+guid: c6118b78bc740471fa7e25f7f5760914
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Brain
+    100002: //RootNode
+    100004: rBrain
+    100006: rBrain|Back
+    100008: rBrain|Base
+    100010: rBrain|Elbow.L
+    100012: rBrain|Elbow.R
+    100014: rBrain|Eye.L
+    100016: rBrain|Eye.R
+    100018: rBrain|EyeBrow.L
+    100020: rBrain|EyeBrow.R
+    100022: rBrain|Foot-IK.L
+    100024: rBrain|Foot-IK.R
+    100026: rBrain|Foot.L
+    100028: rBrain|Foot.R
+    100030: rBrain|Glasses.L
+    100032: rBrain|Glasses.R
+    100034: rBrain|Hand.L
+    100036: rBrain|Hand.R
+    100038: rBrain|Head
+    100040: rBrain|Hip
+    100042: rBrain|Hip.L
+    100044: rBrain|Hip.R
+    100046: rBrain|IK-Hand.L
+    100048: rBrain|IK-Hand.R
+    100050: rBrain|IK-Switch.L
+    100052: rBrain|IK-Switch.R
+    100054: rBrain|Jaw
+    100056: rBrain|Knee.L
+    100058: rBrain|Knee.R
+    100060: rBrain|Little.L
+    100062: rBrain|Little.R
+    100064: rBrain|little1.L
+    100066: rBrain|little1.R
+    100068: rBrain|little2.L
+    100070: rBrain|little2.R
+    100072: rBrain|little3.L
+    100074: rBrain|little3.R
+    100076: rBrain|LowerArm.L
+    100078: rBrain|LowerArm.R
+    100080: rBrain|LowerLeg.L
+    100082: rBrain|LowerLeg.R
+    100084: rBrain|LowerLip
+    100086: rBrain|Middle.L
+    100088: rBrain|Middle.R
+    100090: rBrain|middle1.L
+    100092: rBrain|middle1.R
+    100094: rBrain|middle2.L
+    100096: rBrain|middle2.R
+    100098: rBrain|middle3.L
+    100100: rBrain|middle3.R
+    100102: rBrain|Mouth
+    100104: rBrain|Mouth.L
+    100106: rBrain|Mouth.R
+    100108: rBrain|Neck
+    100110: rBrain|pickup.L
+    100112: rBrain|pickup.R
+    100114: rBrain|Pointer.L
+    100116: rBrain|Pointer.R
+    100118: rBrain|pointer1.L
+    100120: rBrain|pointer1.R
+    100122: rBrain|pointer2.L
+    100124: rBrain|pointer2.R
+    100126: rBrain|pointer3.L
+    100128: rBrain|pointer3.R
+    100130: rBrain|Shoulder.L
+    100132: rBrain|Shoulder.R
+    100134: rBrain|Stomach
+    100136: rBrain|Third.L
+    100138: rBrain|Third.R
+    100140: rBrain|third1.L
+    100142: rBrain|third1.R
+    100144: rBrain|third2.L
+    100146: rBrain|third2.R
+    100148: rBrain|third3.L
+    100150: rBrain|third3.R
+    100152: rBrain|Thumb.L
+    100154: rBrain|Thumb.R
+    100156: rBrain|thumb1.L
+    100158: rBrain|thumb1.R
+    100160: rBrain|thumb2.L
+    100162: rBrain|thumb2.R
+    100164: rBrain|thumb3.L
+    100166: rBrain|thumb3.R
+    100168: rBrain|Toe.L
+    100170: rBrain|Toe.R
+    100172: rBrain|UpperArm.L
+    100174: rBrain|UpperArm.R
+    100176: rBrain|UpperLeg.L
+    100178: rBrain|UpperLeg.R
+    100180: rBrain|UpperLip
+    100182: Back
+    100184: Base
+    100186: Elbow_L
+    100188: Elbow_R
+    100190: Eye_L
+    100192: Eye_R
+    100194: EyeBrow_L
+    100196: EyeBrow_R
+    100198: Foot-IK_L
+    100200: Foot-IK_R
+    100202: Foot_L
+    100204: Foot_R
+    100206: Glasses_L
+    100208: Glasses_R
+    100210: Hand_L
+    100212: Hand_R
+    100214: Head
+    100216: Hip
+    100218: Hip_L
+    100220: Hip_R
+    100222: IK-Hand_L
+    100224: IK-Hand_R
+    100226: IK-Switch_L
+    100228: IK-Switch_R
+    100230: Jaw
+    100232: Knee_L
+    100234: Knee_R
+    100236: little1_L
+    100238: little1_R
+    100240: little2_L
+    100242: little2_R
+    100244: little3_L
+    100246: little3_R
+    100248: Little_L
+    100250: Little_R
+    100252: LowerArm_L
+    100254: LowerArm_R
+    100256: LowerLeg_L
+    100258: LowerLeg_R
+    100260: LowerLip
+    100262: middle1_L
+    100264: middle1_R
+    100266: middle2_L
+    100268: middle2_R
+    100270: middle3_L
+    100272: middle3_R
+    100274: Middle_L
+    100276: Middle_R
+    100278: Mouth
+    100280: Mouth_L
+    100282: Mouth_R
+    100284: Neck
+    100286: pickup_L
+    100288: pickup_R
+    100290: pointer1_L
+    100292: pointer1_R
+    100294: pointer2_L
+    100296: pointer2_R
+    100298: pointer3_L
+    100300: pointer3_R
+    100302: Pointer_L
+    100304: Pointer_R
+    100306: Shoulder_L
+    100308: Shoulder_R
+    100310: Stomach
+    100312: third1_L
+    100314: third1_R
+    100316: third2_L
+    100318: third2_R
+    100320: third3_L
+    100322: third3_R
+    100324: Third_L
+    100326: Third_R
+    100328: thumb1_L
+    100330: thumb1_R
+    100332: thumb2_L
+    100334: thumb2_R
+    100336: thumb3_L
+    100338: thumb3_R
+    100340: Thumb_L
+    100342: Thumb_R
+    100344: Toe_L
+    100346: Toe_R
+    100348: UpperArm_L
+    100350: UpperArm_R
+    100352: UpperLeg_L
+    100354: UpperLeg_R
+    100356: UpperLip
+    400000: //RootNode
+    400002: Brain
+    400004: rBrain
+    400006: rBrain|Back
+    400008: rBrain|Base
+    400010: rBrain|Elbow.L
+    400012: rBrain|Elbow.R
+    400014: rBrain|Eye.L
+    400016: rBrain|Eye.R
+    400018: rBrain|EyeBrow.L
+    400020: rBrain|EyeBrow.R
+    400022: rBrain|Foot-IK.L
+    400024: rBrain|Foot-IK.R
+    400026: rBrain|Foot.L
+    400028: rBrain|Foot.R
+    400030: rBrain|Glasses.L
+    400032: rBrain|Glasses.R
+    400034: rBrain|Hand.L
+    400036: rBrain|Hand.R
+    400038: rBrain|Head
+    400040: rBrain|Hip
+    400042: rBrain|Hip.L
+    400044: rBrain|Hip.R
+    400046: rBrain|IK-Hand.L
+    400048: rBrain|IK-Hand.R
+    400050: rBrain|IK-Switch.L
+    400052: rBrain|IK-Switch.R
+    400054: rBrain|Jaw
+    400056: rBrain|Knee.L
+    400058: rBrain|Knee.R
+    400060: rBrain|Little.L
+    400062: rBrain|Little.R
+    400064: rBrain|little1.L
+    400066: rBrain|little1.R
+    400068: rBrain|little2.L
+    400070: rBrain|little2.R
+    400072: rBrain|little3.L
+    400074: rBrain|little3.R
+    400076: rBrain|LowerArm.L
+    400078: rBrain|LowerArm.R
+    400080: rBrain|LowerLeg.L
+    400082: rBrain|LowerLeg.R
+    400084: rBrain|LowerLip
+    400086: rBrain|Middle.L
+    400088: rBrain|Middle.R
+    400090: rBrain|middle1.L
+    400092: rBrain|middle1.R
+    400094: rBrain|middle2.L
+    400096: rBrain|middle2.R
+    400098: rBrain|middle3.L
+    400100: rBrain|middle3.R
+    400102: rBrain|Mouth
+    400104: rBrain|Mouth.L
+    400106: rBrain|Mouth.R
+    400108: rBrain|Neck
+    400110: rBrain|pickup.L
+    400112: rBrain|pickup.R
+    400114: rBrain|Pointer.L
+    400116: rBrain|Pointer.R
+    400118: rBrain|pointer1.L
+    400120: rBrain|pointer1.R
+    400122: rBrain|pointer2.L
+    400124: rBrain|pointer2.R
+    400126: rBrain|pointer3.L
+    400128: rBrain|pointer3.R
+    400130: rBrain|Shoulder.L
+    400132: rBrain|Shoulder.R
+    400134: rBrain|Stomach
+    400136: rBrain|Third.L
+    400138: rBrain|Third.R
+    400140: rBrain|third1.L
+    400142: rBrain|third1.R
+    400144: rBrain|third2.L
+    400146: rBrain|third2.R
+    400148: rBrain|third3.L
+    400150: rBrain|third3.R
+    400152: rBrain|Thumb.L
+    400154: rBrain|Thumb.R
+    400156: rBrain|thumb1.L
+    400158: rBrain|thumb1.R
+    400160: rBrain|thumb2.L
+    400162: rBrain|thumb2.R
+    400164: rBrain|thumb3.L
+    400166: rBrain|thumb3.R
+    400168: rBrain|Toe.L
+    400170: rBrain|Toe.R
+    400172: rBrain|UpperArm.L
+    400174: rBrain|UpperArm.R
+    400176: rBrain|UpperLeg.L
+    400178: rBrain|UpperLeg.R
+    400180: rBrain|UpperLip
+    400182: Back
+    400184: Base
+    400186: Elbow_L
+    400188: Elbow_R
+    400190: Eye_L
+    400192: Eye_R
+    400194: EyeBrow_L
+    400196: EyeBrow_R
+    400198: Foot-IK_L
+    400200: Foot-IK_R
+    400202: Foot_L
+    400204: Foot_R
+    400206: Glasses_L
+    400208: Glasses_R
+    400210: Hand_L
+    400212: Hand_R
+    400214: Head
+    400216: Hip
+    400218: Hip_L
+    400220: Hip_R
+    400222: IK-Hand_L
+    400224: IK-Hand_R
+    400226: IK-Switch_L
+    400228: IK-Switch_R
+    400230: Jaw
+    400232: Knee_L
+    400234: Knee_R
+    400236: little1_L
+    400238: little1_R
+    400240: little2_L
+    400242: little2_R
+    400244: little3_L
+    400246: little3_R
+    400248: Little_L
+    400250: Little_R
+    400252: LowerArm_L
+    400254: LowerArm_R
+    400256: LowerLeg_L
+    400258: LowerLeg_R
+    400260: LowerLip
+    400262: middle1_L
+    400264: middle1_R
+    400266: middle2_L
+    400268: middle2_R
+    400270: middle3_L
+    400272: middle3_R
+    400274: Middle_L
+    400276: Middle_R
+    400278: Mouth
+    400280: Mouth_L
+    400282: Mouth_R
+    400284: Neck
+    400286: pickup_L
+    400288: pickup_R
+    400290: pointer1_L
+    400292: pointer1_R
+    400294: pointer2_L
+    400296: pointer2_R
+    400298: pointer3_L
+    400300: pointer3_R
+    400302: Pointer_L
+    400304: Pointer_R
+    400306: Shoulder_L
+    400308: Shoulder_R
+    400310: Stomach
+    400312: third1_L
+    400314: third1_R
+    400316: third2_L
+    400318: third2_R
+    400320: third3_L
+    400322: third3_R
+    400324: Third_L
+    400326: Third_R
+    400328: thumb1_L
+    400330: thumb1_R
+    400332: thumb2_L
+    400334: thumb2_R
+    400336: thumb3_L
+    400338: thumb3_R
+    400340: Thumb_L
+    400342: Thumb_R
+    400344: Toe_L
+    400346: Toe_R
+    400348: UpperArm_L
+    400350: UpperArm_R
+    400352: UpperLeg_L
+    400354: UpperLeg_R
+    400356: UpperLip
+    4300000: Brain
+    7400000: Brain_ExpressionHappy
+    7400002: Brain_ExpressionSad
+    7400004: Brain_HeadBob1
+    7400006: Brain_HeadBob2
+    7400008: Brain_Intro1
+    7400010: Brain_Intro2
+    7400012: Brain_Intro3
+    7400014: Brain_Outro1
+    7400016: Brain_Line2
+    7400018: Brain_Line3
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Brain
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Brain_HeadBob1
+      takeName: Brain_HeadBob1
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Brain
+        weight: 1
+      - path: rBrain
+        weight: 1
+      - path: rBrain/rBrain|Base
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L/rBrain|Toe.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R/rBrain|Toe.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Jaw
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|LowerLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|UpperLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|Elbow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Little.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L/rBrain|little3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Middle.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L/rBrain|middle3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pickup.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Pointer.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L/rBrain|pointer3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Third.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L/rBrain|third3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Thumb.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L/rBrain|thumb3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|Elbow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Little.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R/rBrain|little3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Middle.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R/rBrain|middle3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pickup.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Pointer.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R/rBrain|pointer3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Third.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R/rBrain|third3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Thumb.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R/rBrain|thumb3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Brain_HeadBob2
+      takeName: Brain_HeadBob2
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Brain
+        weight: 1
+      - path: rBrain
+        weight: 1
+      - path: rBrain/rBrain|Base
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L/rBrain|Toe.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R/rBrain|Toe.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Jaw
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|LowerLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|UpperLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|Elbow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Little.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L/rBrain|little3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Middle.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L/rBrain|middle3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pickup.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Pointer.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L/rBrain|pointer3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Third.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L/rBrain|third3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Thumb.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L/rBrain|thumb3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|Elbow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Little.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R/rBrain|little3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Middle.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R/rBrain|middle3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pickup.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Pointer.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R/rBrain|pointer3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Third.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R/rBrain|third3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Thumb.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R/rBrain|thumb3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Brain_Intro1
+      takeName: Brain_Intro1
+      firstFrame: 0
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Brain
+        weight: 1
+      - path: rBrain
+        weight: 1
+      - path: rBrain/rBrain|Base
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L/rBrain|Toe.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R/rBrain|Toe.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Jaw
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|LowerLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|UpperLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|Elbow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Little.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L/rBrain|little3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Middle.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L/rBrain|middle3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pickup.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Pointer.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L/rBrain|pointer3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Third.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L/rBrain|third3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Thumb.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L/rBrain|thumb3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|Elbow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Little.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R/rBrain|little3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Middle.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R/rBrain|middle3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pickup.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Pointer.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R/rBrain|pointer3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Third.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R/rBrain|third3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Thumb.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R/rBrain|thumb3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Brain_Intro2
+      takeName: Brain_Intro2
+      firstFrame: 0
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Brain
+        weight: 1
+      - path: rBrain
+        weight: 1
+      - path: rBrain/rBrain|Base
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L/rBrain|Toe.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R/rBrain|Toe.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Jaw
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|LowerLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|UpperLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|Elbow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Little.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L/rBrain|little3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Middle.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L/rBrain|middle3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pickup.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Pointer.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L/rBrain|pointer3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Third.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L/rBrain|third3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Thumb.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L/rBrain|thumb3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|Elbow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Little.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R/rBrain|little3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Middle.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R/rBrain|middle3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pickup.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Pointer.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R/rBrain|pointer3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Third.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R/rBrain|third3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Thumb.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R/rBrain|thumb3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Brain_Intro3
+      takeName: Brain_Intro3
+      firstFrame: 0
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Brain
+        weight: 1
+      - path: rBrain
+        weight: 1
+      - path: rBrain/rBrain|Base
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L/rBrain|Toe.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R/rBrain|Toe.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Jaw
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|LowerLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|UpperLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|Elbow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Little.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L/rBrain|little3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Middle.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L/rBrain|middle3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pickup.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Pointer.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L/rBrain|pointer3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Third.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L/rBrain|third3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Thumb.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L/rBrain|thumb3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|Elbow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Little.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R/rBrain|little3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Middle.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R/rBrain|middle3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pickup.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Pointer.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R/rBrain|pointer3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Third.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R/rBrain|third3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Thumb.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R/rBrain|thumb3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Brain_Outro1
+      takeName: Brain_Outro1
+      firstFrame: 0
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Brain
+        weight: 1
+      - path: rBrain
+        weight: 1
+      - path: rBrain/rBrain|Base
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Foot-IK.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.L/rBrain|UpperLeg.L/rBrain|LowerLeg.L/rBrain|Foot.L/rBrain|Toe.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Hip.R/rBrain|UpperLeg.R/rBrain|LowerLeg.R/rBrain|Foot.R/rBrain|Toe.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Eye.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|EyeBrow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Glasses.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Jaw
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|LowerLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|Mouth.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Neck/rBrain|Head/rBrain|Mouth/rBrain|UpperLip
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|Elbow.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Little.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|little1.L/rBrain|little2.L/rBrain|little3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Middle.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|middle1.L/rBrain|middle2.L/rBrain|middle3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pickup.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Pointer.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|pointer1.L/rBrain|pointer2.L/rBrain|pointer3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Third.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|third1.L/rBrain|third2.L/rBrain|third3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|Thumb.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.L/rBrain|UpperArm.L/rBrain|LowerArm.L/rBrain|Hand.L/rBrain|thumb1.L/rBrain|thumb2.L/rBrain|thumb3.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|Elbow.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Little.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|little1.R/rBrain|little2.R/rBrain|little3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Middle.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|middle1.R/rBrain|middle2.R/rBrain|middle3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pickup.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Pointer.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|pointer1.R/rBrain|pointer2.R/rBrain|pointer3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Third.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|third1.R/rBrain|third2.R/rBrain|third3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|Thumb.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Hip/rBrain|Stomach/rBrain|Back/rBrain|Shoulder.R/rBrain|UpperArm.R/rBrain|LowerArm.R/rBrain|Hand.R/rBrain|thumb1.R/rBrain|thumb2.R/rBrain|thumb3.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Hand.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|IK-Switch.R
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.L
+        weight: 1
+      - path: rBrain/rBrain|Base/rBrain|Knee.R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.74000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

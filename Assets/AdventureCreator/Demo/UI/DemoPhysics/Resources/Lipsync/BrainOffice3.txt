@@ -1,0 +1,41 @@
+audio BrainOffice3.wav
+word 0 240 I'm
+phn 0 150 75 AY
+phn 150 240 75 m
+word 240 520 sure
+phn 240 300 75 SH
+phn 300 420 75 UH
+phn 420 520 75 r
+word 520 670 there's
+phn 520 548 75 DH
+phn 548 595 75 EH
+phn 595 641 75 r
+phn 641 670 75 z
+word 670 780 some
+phn 670 700 75 s
+phn 700 750 75 AH
+phn 750 780 75 m
+word 780 1020 food
+phn 780 840 75 f
+phn 840 960 75 UW
+phn 960 1020 75 d
+word 1020 1230 left
+phn 1020 1085 75 l
+phn 1085 1151 75 EH
+phn 1151 1190 75 f
+phn 1190 1230 75 t
+word 1230 1310 in
+phn 1230 1270 75 IH
+phn 1270 1310 75 n
+word 1310 1410 the
+phn 1310 1347 75 DH
+phn 1347 1410 75 AH
+word 1410 1750 cupboard
+phn 1410 1458 75 k
+phn 1458 1539 75 AH
+phn 1539 1620 75 b
+phn 1620 1701 75 AH
+phn 1701 1750 75 d
+%%-begin-anno-text-%% 
+I'm sure there's some food left in the cupboard
+%%-end-anno-text-%%

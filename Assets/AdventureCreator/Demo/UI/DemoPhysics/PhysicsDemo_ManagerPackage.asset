@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: PhysicsDemo_ManagerPackage
+  m_EditorClassIdentifier: 
+  actionsManager: {fileID: 11400000, guid: 7ee29847057784e598026bf65551bb49, type: 2}
+  sceneManager: {fileID: 11400000, guid: a188f6d5f88194b6d86cfe7c7ec11439, type: 2}
+  settingsManager: {fileID: 11400000, guid: e41aea646cecf4650876e811d8dc44c6, type: 2}
+  inventoryManager: {fileID: 11400000, guid: e6d5b9a45023a41eb9d5f699b5c9dd8d, type: 2}
+  variablesManager: {fileID: 11400000, guid: 373a3f28ada0841bbaf98b9ccadc048f, type: 2}
+  speechManager: {fileID: 11400000, guid: a5ed4256c85c34ae68806455b85a688e, type: 2}
+  cursorManager: {fileID: 11400000, guid: 04fc82bdcd0d14ecdb7cf78419167ac4, type: 2}
+  menuManager: {fileID: 11400000, guid: 3199efe357b8842debc3ba67e44caedf, type: 2}
